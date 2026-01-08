@@ -9,6 +9,11 @@ import javafx.scene.control.TextField;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
+import javafx.stage.Stage;
+import java.io.IOException;
 
 public class LoginController {
 
@@ -68,5 +73,20 @@ public class LoginController {
         alert.setTitle(title);
         alert.setContentText(content);
         alert.showAndWait();
+    }
+
+    private void openMainWindow() {
+        try {
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("/com/emailclient/view/main-view.fxml"));
+            Parent root = loader.load();
+
+            Stage stage = (Stage) emailField.getScene().getWindow();
+            stage.setScene(new Scene(root));
+            stage.setTitle("E-mail Client - Вхідні");
+            stage.show();
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 }
