@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc5d04cb-1c07-4b3c-88fc-106f6a0639b0" name="Changes" comment="lab6">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/emailclient/service/reciever/ImapReciever.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/emailclient/service/reciever/MailReceiver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/emailclient/service/reciever/Pop3Receiver.java" afterDir="false" />
+    <list default="true" id="bc5d04cb-1c07-4b3c-88fc-106f6a0639b0" name="Changes" comment="lab7">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/emailclient/service/interpreter/AndExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/emailclient/service/interpreter/Expression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/emailclient/service/interpreter/FromExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/emailclient/service/interpreter/SearchQueryParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/emailclient/service/interpreter/SubjectExpression.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -86,7 +88,15 @@
       <option name="project" value="LOCAL" />
       <updated>1767904225784</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="lab7">
+      <option name="closed" value="true" />
+      <created>1767904694766</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1767904694766</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -96,6 +106,7 @@
     <MESSAGE value="lab4" />
     <MESSAGE value="lab5" />
     <MESSAGE value="lab6" />
-    <option name="LAST_COMMIT_MESSAGE" value="lab6" />
+    <MESSAGE value="lab7" />
+    <option name="LAST_COMMIT_MESSAGE" value="lab7" />
   </component>
 </project>
