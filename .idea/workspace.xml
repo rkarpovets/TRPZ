@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc5d04cb-1c07-4b3c-88fc-106f6a0639b0" name="Changes" comment="lab4">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/emailclient/config/SettingsManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/emailclient/config/SettingsManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/emailclient/model/EmailMessage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/emailclient/service/ImapExchange.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/emailclient/service/MailExchange.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/emailclient/service/Pop3Exchange.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/emailclient/view/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/emailclient/view/LoginController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +59,15 @@
       <option name="project" value="LOCAL" />
       <updated>1767805682150</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="lab4">
+      <option name="closed" value="true" />
+      <created>1767901785641</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1767901785641</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

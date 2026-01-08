@@ -32,7 +32,7 @@ public class SettingsManager {
         return instance;
     }
 
-    // Геттери та сеттери
+    // Гетери та сетери
     public String getServerAddress() { return serverAddress; }
     public int getServerPort() { return serverPort; }
 
