@@ -1,5 +1,6 @@
 package com.emailclient.view;
 
+import com.emailclient.config.SettingsManager;
 import com.emailclient.database.DatabaseHandler;
 import javafx.fxml.FXML;
 import javafx.scene.control.Alert;
@@ -27,10 +28,19 @@ public class LoginController {
             return;
         }
 
-        // Збереження в БД (Full Cycle implementation)
+        // Збереження в БД
         if (saveAccountToDB(email, password)) {
-            showAlert("Успіх", "Акаунт збережено в БД! Перехід до головного вікна...");
+
+            // Після успішного запису в БД ми зберігаємо поточного користувача в глобальний стан
+            SettingsManager.getInstance().setCurrentUserEmail(email);
+
+            // (Опціонально) Вивід в консоль для перевірки, що Singleton спрацював
+            System.out.println("Singleton оновлено. Поточна сесія для: " +
+                    SettingsManager.getInstance().getCurrentUserEmail());
+
+            showAlert("Успіх", "Акаунт збережено! Перехід до головного вікна...");
             // Тут код відкриття Main Window
+
         } else {
             showAlert("Помилка", "Не вдалося зберегти дані.");
         }
