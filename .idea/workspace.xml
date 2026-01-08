@@ -4,8 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc5d04cb-1c07-4b3c-88fc-106f6a0639b0" name="Changes" comment="lab4">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/emailclient/config/SettingsManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/emailclient/config/SettingsManager.java" afterDir="false" />
+    <list default="true" id="bc5d04cb-1c07-4b3c-88fc-106f6a0639b0" name="Changes" comment="lab5">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/emailclient/service/decorator/BaseDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/emailclient/service/decorator/EncryptionDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/emailclient/service/decorator/MessageRenderer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/emailclient/service/decorator/SignatureDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/emailclient/service/decorator/SimpleMessageRenderer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +72,15 @@
       <option name="project" value="LOCAL" />
       <updated>1767901785641</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="lab5">
+      <option name="closed" value="true" />
+      <created>1767902813032</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1767902813032</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -75,6 +88,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="lab4" />
-    <option name="LAST_COMMIT_MESSAGE" value="lab4" />
+    <MESSAGE value="lab5" />
+    <option name="LAST_COMMIT_MESSAGE" value="lab5" />
   </component>
 </project>
