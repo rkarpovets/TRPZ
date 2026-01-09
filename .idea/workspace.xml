@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc5d04cb-1c07-4b3c-88fc-106f6a0639b0" name="Changes" comment="lab8">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/emailclient/network/EmailService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/emailclient/view/MainController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/com/emailclient/view/login-view.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/com/emailclient/view/main-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/EmailClient.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/EmailClient.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/emailclient/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/emailclient/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/emailclient/view/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/emailclient/view/LoginController.java" afterDir="false" />
-    </list>
+    <list default="true" id="bc5d04cb-1c07-4b3c-88fc-106f6a0639b0" name="Changes" comment="lab9" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -109,7 +100,15 @@
       <option name="project" value="LOCAL" />
       <updated>1767905707779</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="lab9">
+      <option name="closed" value="true" />
+      <created>1767907254941</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1767907254941</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -121,6 +120,7 @@
     <MESSAGE value="lab6" />
     <MESSAGE value="lab7" />
     <MESSAGE value="lab8" />
-    <option name="LAST_COMMIT_MESSAGE" value="lab8" />
+    <MESSAGE value="lab9" />
+    <option name="LAST_COMMIT_MESSAGE" value="lab9" />
   </component>
 </project>
